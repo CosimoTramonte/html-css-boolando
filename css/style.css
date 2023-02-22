@@ -1,5 +1,53 @@
+/*GENERAL*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+    height: 2000px;
+    background-color: rgb(243, 117, 117, 0.5);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*HEADER*/
+
+header{
+    background-color: #FA6903;
+    height: 80px;
+    display: flex;
+    
+}
+
+header .container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    max-height: 40px;
+    width: auto;
+}
+
+.gender span a{
+    color: white;
+    padding: 10px;
+}
+
+.gender span a:hover{
+    text-decoration: underline;
+}
+
+/*MAIN*/
+
+
+/*FOOTER*/
